@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS assignment</title>
+    <link rel="stylesheet" href="page.css">
+    <style>
+        .internal {
+            color: green;
+        }
 
+        .step_1 {
+            color: red;
+        }
+
+        .step_2 {
+            color: aqua;
+        }
+
+        .step_3 {
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: blue;">Inline</div>
+    <div class="internal">Internal</div>
+    <div class="external">External</div>
+    <div style="color: blueviolet;" class="step_1">Inline + Internal</div>
+    <div class="step_2">Internal + External</div>
+    <div style="color: brown;" class="step_3">Inline + Internal + External</div>
+</body>
+</html>
